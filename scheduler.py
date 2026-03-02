@@ -35,7 +35,6 @@ df = pd.DataFrame(data)
 # ---------------- APP ---------------- #
 st.set_page_config(page_title="Horario de Clases", layout="wide")
 st.title("📅 Horario de Clases")
-st.image("UNRC.png", caption="Universidad Nacional Rosario Castellanos", width=300)
 
 # Mostrar toda la tabla
 st.subheader("Tabla Completa")
