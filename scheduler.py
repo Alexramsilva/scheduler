@@ -33,6 +33,7 @@ data = {
 df = pd.DataFrame(data)
 
 # ---------------- APP ---------------- #
+st.image("UNRC.png", caption="Universidad Nacional Rosario Castellanos", width=300)
 st.set_page_config(page_title="Horario de Clases", layout="wide")
 st.title("📅 Horario de Clases")
 
@@ -44,3 +45,16 @@ st.dataframe(df)
 grupo = st.selectbox("Selecciona un grupo:", df["GRUPO"].unique())
 st.subheader(f"Horario del grupo {grupo}")
 st.table(df[df["GRUPO"] == grupo].drop(columns=["GRUPO", "ASIGNATURA", "AULA", "INDICADOR"]))
+
+
+# --- Personalización de diseño ---
+st.markdown("""
+<style>
+    .stApp {
+        background-color: #00FF00;
+    }
+    .css-1d391kg {
+        color: #faf7f8;
+    }
+</style>
+""", unsafe_allow_html=True)
