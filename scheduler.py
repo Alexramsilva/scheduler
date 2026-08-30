@@ -13,20 +13,20 @@ import pandas as pd
 # ---------------- DATOS ---------------- #
 data = {
     "GRUPO": [
-        "PHLCFI-403 COY", "PHLCFI-406 COY", "PHLCFI-409 GAM",
-        "PHLCFI-304 UST", "PHLCFI-404 UST"
+        "PHLCFI-401 GAM", "PHLCFI-402 GAM", "PHLCFI-403 GAM",
+        "PHLCFI-404 GAM", "PHLCFI-714 UST"
     ],
     "ASIGNATURA": [
-        "FINANZAS BÁSICAS", "INVESTIGACIÓN DE OPERACIONES", "LABORATORIO DE INNOVACIÓN SOCIAL",
-        "PROBABILIDAD", "INVESTIGACIÓN DE OPERACIONES"
+        "INVESTIGACIÓN DE OPERACIONES", "INVESTIGACIÓN DE OPERACIONES", "INVESTIGACIÓN DE OPERACIONES",
+        "INVESTIGACIÓN DE OPERACIONES", "SIMULACIÓN BURSÁTIL Y FINANCIERA AVANZADA EN FINANZAS"
     ],
-    "LUNES": ["13-15", "", "", "9-11 (ON LINE)", "7-9 (ON LINE)"],
+    "LUNES": ["", "", "", "7-9", ""],
     "MARTES": ["", "", "", "", ""],
-    "MIÉRCOLES": ["", "15-17", "13-15 (ON LINE)", "", ""],
-    "JUEVES": ["13-15 (ON LINE)", "17-19 (ON LINE)", "", "9-11", "7-9"],
+    "MIÉRCOLES": ["", "", "", "", ""],
+    "JUEVES": ["", "", "", "", ""],
     "VIERNES": ["", "", "", "", ""],
-    "SÁBADO": ["", "", "13-15", "", ""],
-    "AULA": ["A-014", "A-011", "A-ZAC", "A-112", "A-113"],
+    "SÁBADO": ["", "", "", "", ""],
+    "AULA": ["C-103", "C-104", "C-105", "A-CHAL", "A-111"],
     "INDICADOR": ["P-LM/C-JS", "P-LM/C-JS", "P-JS/C-LM", "P-JS/C-LM", "P-JS/C-LM"]
 }
 
