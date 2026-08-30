@@ -20,11 +20,11 @@ data = {
         "INVESTIGACIÓN DE OPERACIONES", "INVESTIGACIÓN DE OPERACIONES", "INVESTIGACIÓN DE OPERACIONES",
         "INVESTIGACIÓN DE OPERACIONES", "SIMULACIÓN BURSÁTIL Y FINANCIERA AVANZADA EN FINANZAS"
     ],
-    "LUNES": ["", "", "", "7-9", ""],
-    "MARTES": ["", "", "", "", ""],
+    "LUNES": ["", "", "17-19", "7-9 (ON LINE)", ""],
+    "MARTES": ["9-11", "7-9", "", "", "13-15"],
     "MIÉRCOLES": ["", "", "", "", ""],
-    "JUEVES": ["", "", "", "", ""],
-    "VIERNES": ["", "", "", "", ""],
+    "JUEVES": ["", "", "17-19 (ON LINE)", "7-9", "13-15"],
+    "VIERNES": ["9-11 (ON LINE)", "7-9 (ON LINE)", "", "", ""],
     "SÁBADO": ["", "", "", "", ""],
     "AULA": ["C-103", "C-104", "C-105", "A-CHAL", "A-111"],
     "INDICADOR": ["P-LM/C-JS", "P-LM/C-JS", "P-JS/C-LM", "P-JS/C-LM", "P-JS/C-LM"]
